@@ -53,6 +53,8 @@ mod decimal;
 mod either;
 #[cfg(feature = "enumset")]
 mod enumset;
+#[cfg(feature = "ethers")]
+mod ethers;
 mod ffi;
 #[cfg(feature = "indexmap")]
 mod indexmap;
